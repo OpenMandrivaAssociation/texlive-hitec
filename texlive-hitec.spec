@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hitec
+# catalog-date 2008-11-07 01:12:48 +0100
+# catalog-license lppl
+# catalog-version 0.0(beta)
 Name:		texlive-hitec
 Version:	0.0beta
 Release:	1
@@ -39,6 +45,7 @@ high-technology companies.
 %doc %{_texmfdistdir}/doc/latex/hitec/README
 %doc %{_texmfdistdir}/doc/latex/hitec/hitec_doc.pdf
 %doc %{_texmfdistdir}/doc/latex/hitec/hitec_doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ high-technology companies.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
