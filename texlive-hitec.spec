@@ -6,7 +6,7 @@
 # catalog-version 0.0(beta)
 Name:		texlive-hitec
 Version:	0.0beta
-Release:	6
+Release:	7
 Summary:	Class for documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hitec
