@@ -1,11 +1,5 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/hitec
-# catalog-date 2008-11-07 01:12:48 +0100
-# catalog-license lppl
-# catalog-version 0.0(beta)
 Name:		texlive-hitec
-Version:	0.0(beta)
+Version:	0.0beta
 Release:	1
 Summary:	Class for documentation
 Group:		Publishing
