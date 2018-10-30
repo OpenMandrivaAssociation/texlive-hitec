@@ -1,6 +1,6 @@
 Name:		texlive-hitec
 Version:	0.0beta
-Release:	1
+Release:	2
 Summary:	Class for documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hitec
